@@ -45,7 +45,7 @@ class scintPrimaryGeneratorAction;
 class scintEventAction : public G4UserEventAction
 {
 public:
-  scintEventAction(RecorderBase*);
+  scintEventAction(RecorderBase*); //hello git
   scintEventAction(RecorderBase*, scintRunAction*);
   ~scintEventAction();
   
