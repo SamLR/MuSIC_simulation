@@ -1,0 +1,67 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXGroup section */
+		CDDE5AF613A9CB4A008FDA1E = {
+			isa = PBXGroup;
+			children = (
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		CDDE5AF813A9CB4A008FDA1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = UCL;
+			};
+			buildConfigurationList = CDDE5AFB13A9CB4A008FDA1E /* Build configuration list for PBXProject "MuSIC_simulation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDDE5AF613A9CB4A008FDA1E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		CDDE5AFD13A9CB4A008FDA1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		CDDE5AFE13A9CB4A008FDA1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDDE5AFB13A9CB4A008FDA1E /* Build configuration list for PBXProject "MuSIC_simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDE5AFD13A9CB4A008FDA1E /* Debug */,
+				CDDE5AFE13A9CB4A008FDA1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDDE5AF813A9CB4A008FDA1E /* Project object */;
+}
