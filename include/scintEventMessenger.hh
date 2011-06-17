@@ -34,7 +34,7 @@ class scintEventAction;
 class G4UIcmdWithAnInteger;
 class G4UIcmdWithABool;
 
-class scintEventMessenger: public G4UImessenger
+class scintEventMessenger: public G4UImessenger //hello!
 {
 public:
   scintEventMessenger(scintEventAction*);
