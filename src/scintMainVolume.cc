@@ -77,24 +77,10 @@ scintMainVolume::scintMainVolume(G4RotationMatrix *pRot,
     scint_phys = new G4PVPlacement(0,G4ThreeVector(),scint_log,"scintillator",
 				   housing_log,false,0);  
     
-    //*************** Miscellaneous sphere to demonstrate skin surfaces
-    sphere = new G4Sphere("sphere",0.*mm,2.*cm,0.*deg,360.*deg,0.*deg,
-			  360.*deg);
-    sphere_log = new G4LogicalVolume(sphere,G4Material::GetMaterial("Vacuum"),
-				     "sphere_log");
-    if(sphereOn)
-      sphere_phys = new G4PVPlacement(0,G4ThreeVector(5.*cm,5.*cm,5.*cm),
-				      sphere_log,"sphere",scint_log,false,0);
-    
-        
-    //****************** Build PMTs
     G4double innerRadius_pmt = 0.*cm;
     G4double height_pmt = d_mtl/2.;
     G4double startAngle_pmt = 0.*deg;
     G4double spanningAngle_pmt = 360.*deg;
-
-    //G4double xdim = 1.0*mm;
-    //G4double ydim = 1.0*mm;
     
     pmt = new G4Tubs("pmt_tube",innerRadius_pmt,outerRadius_pmt,
     		     height_pmt,startAngle_pmt,spanningAngle_pmt);

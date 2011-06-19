@@ -56,6 +56,7 @@ std::ofstream hitsfile;
 int main(int argc, char** argv)
 {
     // TODO check: is this a stepping manager or a function to be carried out for stepping?
+
   G4VSteppingVerbose::SetInstance(new scintSteppingVerbose);
 
   G4RunManager* runManager = new G4RunManager;

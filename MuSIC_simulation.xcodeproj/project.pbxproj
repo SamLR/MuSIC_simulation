@@ -69,6 +69,7 @@
 		CD90AA4913AE000D004BF17F /* libG4Tree.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A91713AC89C4004BF17F /* libG4Tree.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
 		CD90AA4A13AE000D004BF17F /* libG4visHepRep.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A91913AC89C4004BF17F /* libG4visHepRep.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
 		CD90AA4B13AE000D004BF17F /* libG4VRML.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A91B13AC89C4004BF17F /* libG4VRML.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CDDA764613AE3740005A5F62 /* scintBarConstruction.cc in Sources */ = {isa = PBXBuildFile; fileRef = CDDA764413AE3740005A5F62 /* scintBarConstruction.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -183,11 +184,13 @@
 		CD90A99C13AD010D004BF17F /* defaults.mac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = defaults.mac; sourceTree = "<group>"; };
 		CD90A99D13AD010D004BF17F /* photon.mac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = photon.mac; sourceTree = "<group>"; };
 		CD90A99E13AD010D004BF17F /* reviewEvent.mac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = reviewEvent.mac; sourceTree = "<group>"; };
-		CD90A99F13AD010D004BF17F /* vis.mac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vis.mac; sourceTree = "<group>"; };
 		CD90A9A013AD010D004BF17F /* wls.mac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wls.mac; sourceTree = "<group>"; };
 		CD90A9A213AD011C004BF17F /* WALKTHROUGH */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WALKTHROUGH; sourceTree = SOURCE_ROOT; };
 		CD90AA0913ADF7E1004BF17F /* GNUmakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GNUmakefile; sourceTree = SOURCE_ROOT; };
-		CD90AA5013AE000D004BF17F /* MuSIC_simulation copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MuSIC_simulation copy"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD90AA5013AE000D004BF17F /* MuSIC_simulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MuSIC_simulation; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDA764313AE24C8005A5F62 /* vis.mac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vis.mac; sourceTree = "<group>"; };
+		CDDA764413AE3740005A5F62 /* scintBarConstruction.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintBarConstruction.cc; sourceTree = "<group>"; };
+		CDDA766913AE389C005A5F62 /* scintBarConstruction.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintBarConstruction.hh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,7 +246,7 @@
 		CD0B3F1D13AB018500EE1952 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD90AA5013AE000D004BF17F /* MuSIC_simulation copy */,
+				CD90AA5013AE000D004BF17F /* MuSIC_simulation */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -251,9 +254,9 @@
 		CD0B3F1F13AB018500EE1952 /* MuSIC_simulation */ = {
 			isa = PBXGroup;
 			children = (
+				CD90A99A13AD010D004BF17F /* macros */,
 				CD90AA0913ADF7E1004BF17F /* GNUmakefile */,
 				CD90A9A213AD011C004BF17F /* WALKTHROUGH */,
-				CD90A99A13AD010D004BF17F /* macros */,
 				CD0B3F9E13AB119800EE1952 /* include */,
 				CD0B3FBF13AB119800EE1952 /* README */,
 				CD0B3FC113AB119800EE1952 /* src */,
@@ -284,6 +287,7 @@
 				CD0B3FAF13AB119800EE1952 /* scintPrimaryGeneratorMessenger.hh */,
 				CD0B3FB013AB119800EE1952 /* scintRunAction.hh */,
 				CD0B3FB113AB119800EE1952 /* scintRunActionMessenger.hh */,
+				CDDA766913AE389C005A5F62 /* scintBarConstruction.hh */,
 				CD0B3FB213AB119800EE1952 /* scintScintHit.hh */,
 				CD0B3FB313AB119800EE1952 /* scintScintSD.hh */,
 				CD0B3FB413AB119800EE1952 /* scintStackingAction.hh */,
@@ -312,6 +316,7 @@
 				CD0B3FC713AB119800EE1952 /* scintGeneralPhysics.cc */,
 				CD0B3FC813AB119800EE1952 /* scintHadronPhysics.cc */,
 				CD0B3FC913AB119800EE1952 /* scintMainVolume.cc */,
+				CDDA764413AE3740005A5F62 /* scintBarConstruction.cc */,
 				CD0B3FCA13AB119800EE1952 /* scintMuonPhysics.cc */,
 				CD0B3FCB13AB119800EE1952 /* scintOpPhysMessenger.cc */,
 				CD0B3FCC13AB119800EE1952 /* scintOpticalPhysics.cc */,
@@ -379,11 +384,11 @@
 		CD90A99A13AD010D004BF17F /* macros */ = {
 			isa = PBXGroup;
 			children = (
+				CDDA764313AE24C8005A5F62 /* vis.mac */,
 				CD90A99B13AD010D004BF17F /* cerenkov.mac */,
 				CD90A99C13AD010D004BF17F /* defaults.mac */,
 				CD90A99D13AD010D004BF17F /* photon.mac */,
 				CD90A99E13AD010D004BF17F /* reviewEvent.mac */,
-				CD90A99F13AD010D004BF17F /* vis.mac */,
 				CD90A9A013AD010D004BF17F /* wls.mac */,
 			);
 			path = macros;
@@ -396,7 +401,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD90AA4D13AE000D004BF17F /* Build configuration list for PBXNativeTarget "MuSIC_simulation" */;
 			buildPhases = (
-				CD90AA0B13AE000D004BF17F /* Run Script */,
 				CD90AA0C13AE000D004BF17F /* Sources */,
 				CD90AA2D13AE000D004BF17F /* Frameworks */,
 				CD90AA4C13AE000D004BF17F /* CopyFiles */,
@@ -407,7 +411,7 @@
 			);
 			name = MuSIC_simulation;
 			productName = MuSIC_simulation;
-			productReference = CD90AA5013AE000D004BF17F /* MuSIC_simulation copy */;
+			productReference = CD90AA5013AE000D004BF17F /* MuSIC_simulation */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -434,23 +438,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		CD90AA0B13AE000D004BF17F /* Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export G4SYSTEM=Darwin-g++\nexport G4INSTALL=/Applications/geant4.9.3.p01\nexport G4LIB=/Applications/geant4.9.3.p01/lib\nexport G4LEVELGAMMADATA=/Applications/geant4.9.3.p01/data/PhotonEvaporation2.0\nexport G4RADIOACTIVEDATA=/Applications/geant4.9.3.p01/data/RadioactiveDecay3.2\nexport G4LEDATA=/Applications/geant4.9.3.p01/data/G4EMLOW6.9\nexport G4NEUTRONHPDATA=/Applications/geant4.9.3.p01/data/G4NDL3.13\nexport G4ABLADATA=/Applications/geant4.9.3.p01/data/G4ABLA3.0\nexport G4REALSURFACEDATA=/Applications/geant4.9.3.p01/data/RealSurface1.0\nexport CLHEP_BASE_DIR=/Applications/CLHEP/2.0.4.6\nexport CLHEP_INCLUDE_DIR=/Applications/CLHEP/2.0.4.6/include\nexport CLHEP_LIB_DIR=/Applications/CLHEP/2.0.4.6/lib\nexport CLHEP_LIB=CLHEP\nexport G4UI_USE_TCSH=1    \nexport G$VIS_USE=1\nexport G4VIS_BUILD_OPENGLX_DRIVER=1\nexport G4VIS_BUILD_RAYTRACERX_DRIVER=1\nexport G4VIS_USE_OPENGLX=1\nexport G4VIS_USE_RAYTRACERX=1\nexport XMFLAGS=\nexport XMLIBS=\nexport XMFLAGS=\nexport XAWFLAGS=\nexport XAWLIBS=\nexport G4LIB_BUILD_SHARED=1\nexport G4LIB_BUILD_STATIC=1  \n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD90AA0C13AE000D004BF17F /* Sources */ = {
@@ -489,6 +476,7 @@
 				CD90AA2A13AE000D004BF17F /* scintWLSFiber.cc in Sources */,
 				CD90AA2B13AE000D004BF17F /* scintWLSSlab.cc in Sources */,
 				CD90AA2C13AE000D004BF17F /* TG4BLStream.cc in Sources */,
+				CDDA764613AE3740005A5F62 /* scintBarConstruction.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +513,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SYMROOT = build;
 				USER_HEADER_SEARCH_PATHS = "/Applications/geant4.9.3.p01/source/**";
 				VALID_ARCHS = x86_64;
 			};
@@ -558,6 +547,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SYMROOT = build;
 				USER_HEADER_SEARCH_PATHS = "/Applications/geant4.9.3.p01/source/**";
 				VALID_ARCHS = x86_64;
 			};
@@ -575,7 +565,7 @@
 					"\\\"$(SYSTEM_APPS_DIR)/geant4.9.3.p01/lib/Darwin-g++\\\"",
 					"\\\"$(SYSTEM_APPS_DIR)/CLHEP/2.0.4.6/lib\\\"",
 				);
-				PRODUCT_NAME = "MuSIC_simulation copy";
+				PRODUCT_NAME = MuSIC_simulation;
 			};
 			name = Debug;
 		};
@@ -591,7 +581,7 @@
 					"\\\"$(SYSTEM_APPS_DIR)/geant4.9.3.p01/lib/Darwin-g++\\\"",
 					"\\\"$(SYSTEM_APPS_DIR)/CLHEP/2.0.4.6/lib\\\"",
 				);
-				PRODUCT_NAME = "MuSIC_simulation copy";
+				PRODUCT_NAME = MuSIC_simulation;
 			};
 			name = Release;
 		};
