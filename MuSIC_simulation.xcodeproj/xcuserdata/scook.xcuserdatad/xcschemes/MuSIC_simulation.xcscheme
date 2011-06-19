@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CD90AA0A13AE000D004BF17F"
-               BuildableName = "MuSIC_simulation copy"
+               BuildableName = "MuSIC_simulation"
                BlueprintName = "MuSIC_simulation"
                ReferencedContainer = "container:MuSIC_simulation.xcodeproj">
             </BuildableReference>
@@ -42,7 +42,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD90AA0A13AE000D004BF17F"
-            BuildableName = "MuSIC_simulation copy"
+            BuildableName = "MuSIC_simulation"
             BlueprintName = "MuSIC_simulation"
             ReferencedContainer = "container:MuSIC_simulation.xcodeproj">
          </BuildableReference>
@@ -133,7 +133,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD90AA0A13AE000D004BF17F"
-            BuildableName = "MuSIC_simulation copy"
+            BuildableName = "MuSIC_simulation"
             BlueprintName = "MuSIC_simulation"
             ReferencedContainer = "container:MuSIC_simulation.xcodeproj">
          </BuildableReference>
