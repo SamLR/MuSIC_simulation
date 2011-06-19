@@ -1,0 +1,35 @@
+#################
+##
+## This example demonstrates the cerenkov process by using a 200 MeV mu+
+## particle in a geometry configuration that shows the cerenkov cone
+## and pmts hit by it.
+##
+#################
+
+/control/execute defaults.mac
+
+#This currently causes the program to crash due to a bug in geant4
+#Uncomment it once that bug has been fixed. Until then, to use this,
+#modify scintPhysicsList to disable scintillation.
+#/process/inactivate Scintillation
+
+/scint/detector/MainScintYield 0
+
+/scint/detector/nx 20
+/scint/detector/ny 20
+/scint/detector/nz 0
+/scint/detector/dimensions 60 60 25 cm
+/scint/detector/pmtRadius 1.5 cm
+/scint/detector/volumes/sphere 0
+/scint/detector/reflectivity 0.0
+/scint/detector/update
+
+/gun/particle mu+
+/gun/energy 200 MeV
+
+#This causes the primary particle to be killed after its first step in the
+#scintillator volume. Thus preventing the cerenkov cone to fill in.
+/scint/oneStepPrimaries true
+
+#reset from a random seed that shows a good cone
+/random/resetEngineFrom random/goodCerenkov.rndm

@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD90AA0D13AE000D004BF17F /* scint.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FC013AB119800EE1952 /* scint.cc */; };
+		CD90AA0E13AE000D004BF17F /* scintDetectorConstruction.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FC213AB119800EE1952 /* scintDetectorConstruction.cc */; };
+		CD90AA0F13AE000D004BF17F /* scintDetectorMessenger.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FC313AB119800EE1952 /* scintDetectorMessenger.cc */; };
+		CD90AA1013AE000D004BF17F /* scintEMPhysics.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FC413AB119800EE1952 /* scintEMPhysics.cc */; };
+		CD90AA1113AE000D004BF17F /* scintEventAction.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FC513AB119800EE1952 /* scintEventAction.cc */; };
+		CD90AA1213AE000D004BF17F /* scintEventMessenger.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FC613AB119800EE1952 /* scintEventMessenger.cc */; };
+		CD90AA1313AE000D004BF17F /* scintGeneralPhysics.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FC713AB119800EE1952 /* scintGeneralPhysics.cc */; };
+		CD90AA1413AE000D004BF17F /* scintHadronPhysics.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FC813AB119800EE1952 /* scintHadronPhysics.cc */; };
+		CD90AA1513AE000D004BF17F /* scintMainVolume.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FC913AB119800EE1952 /* scintMainVolume.cc */; };
+		CD90AA1613AE000D004BF17F /* scintMuonPhysics.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FCA13AB119800EE1952 /* scintMuonPhysics.cc */; };
+		CD90AA1713AE000D004BF17F /* scintOpPhysMessenger.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FCB13AB119800EE1952 /* scintOpPhysMessenger.cc */; };
+		CD90AA1813AE000D004BF17F /* scintOpticalPhysics.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FCC13AB119800EE1952 /* scintOpticalPhysics.cc */; };
+		CD90AA1913AE000D004BF17F /* scintPhysicsList.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FCD13AB119800EE1952 /* scintPhysicsList.cc */; };
+		CD90AA1A13AE000D004BF17F /* scintPMTHit.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FCE13AB119800EE1952 /* scintPMTHit.cc */; };
+		CD90AA1B13AE000D004BF17F /* scintPMTSD.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FCF13AB119800EE1952 /* scintPMTSD.cc */; };
+		CD90AA1C13AE000D004BF17F /* scintPrimaryGeneratorAction.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FD013AB119800EE1952 /* scintPrimaryGeneratorAction.cc */; };
+		CD90AA1D13AE000D004BF17F /* scintPrimaryGeneratorMessenger.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FD113AB119800EE1952 /* scintPrimaryGeneratorMessenger.cc */; };
+		CD90AA1E13AE000D004BF17F /* scintRunAction.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FD213AB119800EE1952 /* scintRunAction.cc */; };
+		CD90AA1F13AE000D004BF17F /* scintRunActionMessenger.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FD313AB119800EE1952 /* scintRunActionMessenger.cc */; };
+		CD90AA2013AE000D004BF17F /* scintScintHit.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FD413AB119800EE1952 /* scintScintHit.cc */; };
+		CD90AA2113AE000D004BF17F /* scintScintSD.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FD513AB119800EE1952 /* scintScintSD.cc */; };
+		CD90AA2213AE000D004BF17F /* scintStackingAction.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FD613AB119800EE1952 /* scintStackingAction.cc */; };
+		CD90AA2313AE000D004BF17F /* scintSteppingAction.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FD713AB119800EE1952 /* scintSteppingAction.cc */; };
+		CD90AA2413AE000D004BF17F /* scintSteppingMessenger.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FD813AB119800EE1952 /* scintSteppingMessenger.cc */; };
+		CD90AA2513AE000D004BF17F /* scintSteppingVerbose.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FD913AB119800EE1952 /* scintSteppingVerbose.cc */; };
+		CD90AA2613AE000D004BF17F /* scintTrackingAction.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FDA13AB119800EE1952 /* scintTrackingAction.cc */; };
+		CD90AA2713AE000D004BF17F /* scintTrajectory.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FDB13AB119800EE1952 /* scintTrajectory.cc */; };
+		CD90AA2813AE000D004BF17F /* scintUserEventInformation.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FDC13AB119800EE1952 /* scintUserEventInformation.cc */; };
+		CD90AA2913AE000D004BF17F /* scintUserTrackInformation.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FDD13AB119800EE1952 /* scintUserTrackInformation.cc */; };
+		CD90AA2A13AE000D004BF17F /* scintWLSFiber.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FDE13AB119800EE1952 /* scintWLSFiber.cc */; };
+		CD90AA2B13AE000D004BF17F /* scintWLSSlab.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FDF13AB119800EE1952 /* scintWLSSlab.cc */; };
+		CD90AA2C13AE000D004BF17F /* TG4BLStream.cc in Sources */ = {isa = PBXBuildFile; fileRef = CD0B3FE013AB119800EE1952 /* TG4BLStream.cc */; };
+		CD90AA2E13AE000D004BF17F /* libCLHEP-2.0.4.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A93913AC8A27004BF17F /* libCLHEP-2.0.4.6.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA2F13AE000D004BF17F /* libG4global.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A90513AC89C4004BF17F /* libG4global.dylib */; };
+		CD90AA3013AE000D004BF17F /* libG4run.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A91413AC89C4004BF17F /* libG4run.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA3113AE000D004BF17F /* libG4processes.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A91113AC89C4004BF17F /* libG4processes.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA3213AE000D004BF17F /* libG4event.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A90113AC89C4004BF17F /* libG4event.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA3313AE000D004BF17F /* libG4tracking.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A91613AC89C4004BF17F /* libG4tracking.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA3413AE000D004BF17F /* libG4geometry.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A90313AC89C4004BF17F /* libG4geometry.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA3513AE000D004BF17F /* libG4particles.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A90E13AC89C4004BF17F /* libG4particles.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA3613AE000D004BF17F /* libG4materials.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A90A13AC89C4004BF17F /* libG4materials.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA3713AE000D004BF17F /* libG4physicslists.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A91013AC89C4004BF17F /* libG4physicslists.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA3813AE000D004BF17F /* libG4visXXX.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A91A13AC89C4004BF17F /* libG4visXXX.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA3913AE000D004BF17F /* libG4vis_management.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A91813AC89C4004BF17F /* libG4vis_management.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA3A13AE000D004BF17F /* libG4digits_hits.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A8FF13AC89C4004BF17F /* libG4digits_hits.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA3B13AE000D004BF17F /* libG4error_propagation.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A90013AC89C4004BF17F /* libG4error_propagation.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA3C13AE000D004BF17F /* libG4FR.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A90213AC89C4004BF17F /* libG4FR.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA3D13AE000D004BF17F /* libG4gl2ps.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A90413AC89C4004BF17F /* libG4gl2ps.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA3E13AE000D004BF17F /* libG4GMocren.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A90613AC89C4004BF17F /* libG4GMocren.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA3F13AE000D004BF17F /* libG4graphics_reps.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A90713AC89C4004BF17F /* libG4graphics_reps.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA4013AE000D004BF17F /* libG4intercoms.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A90813AC89C4004BF17F /* libG4intercoms.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA4113AE000D004BF17F /* libG4interfaces.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A90913AC89C4004BF17F /* libG4interfaces.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA4213AE000D004BF17F /* libG4modeling.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A90B13AC89C4004BF17F /* libG4modeling.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA4313AE000D004BF17F /* libG4OpenGL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A90C13AC89C4004BF17F /* libG4OpenGL.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA4413AE000D004BF17F /* libG4parmodels.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A90D13AC89C4004BF17F /* libG4parmodels.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA4513AE000D004BF17F /* libG4persistency.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A90F13AC89C4004BF17F /* libG4persistency.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA4613AE000D004BF17F /* libG4RayTracer.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A91213AC89C4004BF17F /* libG4RayTracer.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA4713AE000D004BF17F /* libG4readout.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A91313AC89C4004BF17F /* libG4readout.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA4813AE000D004BF17F /* libG4track.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A91513AC89C4004BF17F /* libG4track.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA4913AE000D004BF17F /* libG4Tree.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A91713AC89C4004BF17F /* libG4Tree.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA4A13AE000D004BF17F /* libG4visHepRep.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A91913AC89C4004BF17F /* libG4visHepRep.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		CD90AA4B13AE000D004BF17F /* libG4VRML.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD90A91B13AC89C4004BF17F /* libG4VRML.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD90AA4C13AE000D004BF17F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD0B3F9F13AB119800EE1952 /* RecorderBase.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RecorderBase.hh; sourceTree = "<group>"; };
+		CD0B3FA013AB119800EE1952 /* scintDetectorConstruction.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintDetectorConstruction.hh; sourceTree = "<group>"; };
+		CD0B3FA113AB119800EE1952 /* scintDetectorMessenger.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintDetectorMessenger.hh; sourceTree = "<group>"; };
+		CD0B3FA213AB119800EE1952 /* scintEMPhysics.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintEMPhysics.hh; sourceTree = "<group>"; };
+		CD0B3FA313AB119800EE1952 /* scintEventAction.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintEventAction.hh; sourceTree = "<group>"; };
+		CD0B3FA413AB119800EE1952 /* scintEventMessenger.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintEventMessenger.hh; sourceTree = "<group>"; };
+		CD0B3FA513AB119800EE1952 /* scintGeneralPhysics.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintGeneralPhysics.hh; sourceTree = "<group>"; };
+		CD0B3FA613AB119800EE1952 /* scintHadronPhysics.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintHadronPhysics.hh; sourceTree = "<group>"; };
+		CD0B3FA713AB119800EE1952 /* scintMainVolume.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintMainVolume.hh; sourceTree = "<group>"; };
+		CD0B3FA813AB119800EE1952 /* scintMuonPhysics.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintMuonPhysics.hh; sourceTree = "<group>"; };
+		CD0B3FA913AB119800EE1952 /* scintOpPhysMessenger.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintOpPhysMessenger.hh; sourceTree = "<group>"; };
+		CD0B3FAA13AB119800EE1952 /* scintOpticalPhysics.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintOpticalPhysics.hh; sourceTree = "<group>"; };
+		CD0B3FAB13AB119800EE1952 /* scintPhysicsList.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintPhysicsList.hh; sourceTree = "<group>"; };
+		CD0B3FAC13AB119800EE1952 /* scintPMTHit.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintPMTHit.hh; sourceTree = "<group>"; };
+		CD0B3FAD13AB119800EE1952 /* scintPMTSD.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintPMTSD.hh; sourceTree = "<group>"; };
+		CD0B3FAE13AB119800EE1952 /* scintPrimaryGeneratorAction.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintPrimaryGeneratorAction.hh; sourceTree = "<group>"; };
+		CD0B3FAF13AB119800EE1952 /* scintPrimaryGeneratorMessenger.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintPrimaryGeneratorMessenger.hh; sourceTree = "<group>"; };
+		CD0B3FB013AB119800EE1952 /* scintRunAction.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintRunAction.hh; sourceTree = "<group>"; };
+		CD0B3FB113AB119800EE1952 /* scintRunActionMessenger.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintRunActionMessenger.hh; sourceTree = "<group>"; };
+		CD0B3FB213AB119800EE1952 /* scintScintHit.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintScintHit.hh; sourceTree = "<group>"; };
+		CD0B3FB313AB119800EE1952 /* scintScintSD.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintScintSD.hh; sourceTree = "<group>"; };
+		CD0B3FB413AB119800EE1952 /* scintStackingAction.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintStackingAction.hh; sourceTree = "<group>"; };
+		CD0B3FB513AB119800EE1952 /* scintSteppingAction.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintSteppingAction.hh; sourceTree = "<group>"; };
+		CD0B3FB613AB119800EE1952 /* scintSteppingMessenger.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintSteppingMessenger.hh; sourceTree = "<group>"; };
+		CD0B3FB713AB119800EE1952 /* scintSteppingVerbose.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintSteppingVerbose.hh; sourceTree = "<group>"; };
+		CD0B3FB813AB119800EE1952 /* scintTrackingAction.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintTrackingAction.hh; sourceTree = "<group>"; };
+		CD0B3FB913AB119800EE1952 /* scintTrajectory.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintTrajectory.hh; sourceTree = "<group>"; };
+		CD0B3FBA13AB119800EE1952 /* scintUserEventInformation.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintUserEventInformation.hh; sourceTree = "<group>"; };
+		CD0B3FBB13AB119800EE1952 /* scintUserTrackInformation.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintUserTrackInformation.hh; sourceTree = "<group>"; };
+		CD0B3FBC13AB119800EE1952 /* scintWLSFiber.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintWLSFiber.hh; sourceTree = "<group>"; };
+		CD0B3FBD13AB119800EE1952 /* scintWLSSlab.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = scintWLSSlab.hh; sourceTree = "<group>"; };
+		CD0B3FBE13AB119800EE1952 /* TG4BLStream.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TG4BLStream.hh; sourceTree = "<group>"; };
+		CD0B3FBF13AB119800EE1952 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
+		CD0B3FC013AB119800EE1952 /* scint.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scint.cc; sourceTree = SOURCE_ROOT; };
+		CD0B3FC213AB119800EE1952 /* scintDetectorConstruction.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintDetectorConstruction.cc; sourceTree = "<group>"; };
+		CD0B3FC313AB119800EE1952 /* scintDetectorMessenger.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintDetectorMessenger.cc; sourceTree = "<group>"; };
+		CD0B3FC413AB119800EE1952 /* scintEMPhysics.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintEMPhysics.cc; sourceTree = "<group>"; };
+		CD0B3FC513AB119800EE1952 /* scintEventAction.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintEventAction.cc; sourceTree = "<group>"; };
+		CD0B3FC613AB119800EE1952 /* scintEventMessenger.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintEventMessenger.cc; sourceTree = "<group>"; };
+		CD0B3FC713AB119800EE1952 /* scintGeneralPhysics.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintGeneralPhysics.cc; sourceTree = "<group>"; };
+		CD0B3FC813AB119800EE1952 /* scintHadronPhysics.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintHadronPhysics.cc; sourceTree = "<group>"; };
+		CD0B3FC913AB119800EE1952 /* scintMainVolume.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintMainVolume.cc; sourceTree = "<group>"; };
+		CD0B3FCA13AB119800EE1952 /* scintMuonPhysics.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintMuonPhysics.cc; sourceTree = "<group>"; };
+		CD0B3FCB13AB119800EE1952 /* scintOpPhysMessenger.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintOpPhysMessenger.cc; sourceTree = "<group>"; };
+		CD0B3FCC13AB119800EE1952 /* scintOpticalPhysics.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintOpticalPhysics.cc; sourceTree = "<group>"; };
+		CD0B3FCD13AB119800EE1952 /* scintPhysicsList.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintPhysicsList.cc; sourceTree = "<group>"; };
+		CD0B3FCE13AB119800EE1952 /* scintPMTHit.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintPMTHit.cc; sourceTree = "<group>"; };
+		CD0B3FCF13AB119800EE1952 /* scintPMTSD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintPMTSD.cc; sourceTree = "<group>"; };
+		CD0B3FD013AB119800EE1952 /* scintPrimaryGeneratorAction.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintPrimaryGeneratorAction.cc; sourceTree = "<group>"; };
+		CD0B3FD113AB119800EE1952 /* scintPrimaryGeneratorMessenger.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintPrimaryGeneratorMessenger.cc; sourceTree = "<group>"; };
+		CD0B3FD213AB119800EE1952 /* scintRunAction.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintRunAction.cc; sourceTree = "<group>"; };
+		CD0B3FD313AB119800EE1952 /* scintRunActionMessenger.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintRunActionMessenger.cc; sourceTree = "<group>"; };
+		CD0B3FD413AB119800EE1952 /* scintScintHit.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintScintHit.cc; sourceTree = "<group>"; };
+		CD0B3FD513AB119800EE1952 /* scintScintSD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintScintSD.cc; sourceTree = "<group>"; };
+		CD0B3FD613AB119800EE1952 /* scintStackingAction.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintStackingAction.cc; sourceTree = "<group>"; };
+		CD0B3FD713AB119800EE1952 /* scintSteppingAction.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintSteppingAction.cc; sourceTree = "<group>"; };
+		CD0B3FD813AB119800EE1952 /* scintSteppingMessenger.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintSteppingMessenger.cc; sourceTree = "<group>"; };
+		CD0B3FD913AB119800EE1952 /* scintSteppingVerbose.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintSteppingVerbose.cc; sourceTree = "<group>"; };
+		CD0B3FDA13AB119800EE1952 /* scintTrackingAction.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintTrackingAction.cc; sourceTree = "<group>"; };
+		CD0B3FDB13AB119800EE1952 /* scintTrajectory.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintTrajectory.cc; sourceTree = "<group>"; };
+		CD0B3FDC13AB119800EE1952 /* scintUserEventInformation.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintUserEventInformation.cc; sourceTree = "<group>"; };
+		CD0B3FDD13AB119800EE1952 /* scintUserTrackInformation.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintUserTrackInformation.cc; sourceTree = "<group>"; };
+		CD0B3FDE13AB119800EE1952 /* scintWLSFiber.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintWLSFiber.cc; sourceTree = "<group>"; };
+		CD0B3FDF13AB119800EE1952 /* scintWLSSlab.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scintWLSSlab.cc; sourceTree = "<group>"; };
+		CD0B3FE013AB119800EE1952 /* TG4BLStream.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TG4BLStream.cc; sourceTree = "<group>"; };
+		CD90A8FF13AC89C4004BF17F /* libG4digits_hits.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4digits_hits.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4digits_hits.dylib"; sourceTree = "<absolute>"; };
+		CD90A90013AC89C4004BF17F /* libG4error_propagation.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4error_propagation.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4error_propagation.dylib"; sourceTree = "<absolute>"; };
+		CD90A90113AC89C4004BF17F /* libG4event.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4event.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4event.dylib"; sourceTree = "<absolute>"; };
+		CD90A90213AC89C4004BF17F /* libG4FR.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4FR.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4FR.dylib"; sourceTree = "<absolute>"; };
+		CD90A90313AC89C4004BF17F /* libG4geometry.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4geometry.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4geometry.dylib"; sourceTree = "<absolute>"; };
+		CD90A90413AC89C4004BF17F /* libG4gl2ps.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4gl2ps.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4gl2ps.dylib"; sourceTree = "<absolute>"; };
+		CD90A90513AC89C4004BF17F /* libG4global.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4global.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4global.dylib"; sourceTree = "<absolute>"; };
+		CD90A90613AC89C4004BF17F /* libG4GMocren.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4GMocren.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4GMocren.dylib"; sourceTree = "<absolute>"; };
+		CD90A90713AC89C4004BF17F /* libG4graphics_reps.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4graphics_reps.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4graphics_reps.dylib"; sourceTree = "<absolute>"; };
+		CD90A90813AC89C4004BF17F /* libG4intercoms.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4intercoms.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4intercoms.dylib"; sourceTree = "<absolute>"; };
+		CD90A90913AC89C4004BF17F /* libG4interfaces.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4interfaces.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4interfaces.dylib"; sourceTree = "<absolute>"; };
+		CD90A90A13AC89C4004BF17F /* libG4materials.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4materials.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4materials.dylib"; sourceTree = "<absolute>"; };
+		CD90A90B13AC89C4004BF17F /* libG4modeling.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4modeling.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4modeling.dylib"; sourceTree = "<absolute>"; };
+		CD90A90C13AC89C4004BF17F /* libG4OpenGL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4OpenGL.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4OpenGL.dylib"; sourceTree = "<absolute>"; };
+		CD90A90D13AC89C4004BF17F /* libG4parmodels.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4parmodels.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4parmodels.dylib"; sourceTree = "<absolute>"; };
+		CD90A90E13AC89C4004BF17F /* libG4particles.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4particles.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4particles.dylib"; sourceTree = "<absolute>"; };
+		CD90A90F13AC89C4004BF17F /* libG4persistency.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4persistency.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4persistency.dylib"; sourceTree = "<absolute>"; };
+		CD90A91013AC89C4004BF17F /* libG4physicslists.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4physicslists.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4physicslists.dylib"; sourceTree = "<absolute>"; };
+		CD90A91113AC89C4004BF17F /* libG4processes.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4processes.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4processes.dylib"; sourceTree = "<absolute>"; };
+		CD90A91213AC89C4004BF17F /* libG4RayTracer.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4RayTracer.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4RayTracer.dylib"; sourceTree = "<absolute>"; };
+		CD90A91313AC89C4004BF17F /* libG4readout.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4readout.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4readout.dylib"; sourceTree = "<absolute>"; };
+		CD90A91413AC89C4004BF17F /* libG4run.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4run.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4run.dylib"; sourceTree = "<absolute>"; };
+		CD90A91513AC89C4004BF17F /* libG4track.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4track.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4track.dylib"; sourceTree = "<absolute>"; };
+		CD90A91613AC89C4004BF17F /* libG4tracking.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4tracking.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4tracking.dylib"; sourceTree = "<absolute>"; };
+		CD90A91713AC89C4004BF17F /* libG4Tree.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4Tree.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4Tree.dylib"; sourceTree = "<absolute>"; };
+		CD90A91813AC89C4004BF17F /* libG4vis_management.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4vis_management.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4vis_management.dylib"; sourceTree = "<absolute>"; };
+		CD90A91913AC89C4004BF17F /* libG4visHepRep.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4visHepRep.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4visHepRep.dylib"; sourceTree = "<absolute>"; };
+		CD90A91A13AC89C4004BF17F /* libG4visXXX.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4visXXX.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4visXXX.dylib"; sourceTree = "<absolute>"; };
+		CD90A91B13AC89C4004BF17F /* libG4VRML.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libG4VRML.dylib; path = "/Applications/geant4.9.3.p01/lib/Darwin-g++/libG4VRML.dylib"; sourceTree = "<absolute>"; };
+		CD90A93913AC8A27004BF17F /* libCLHEP-2.0.4.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libCLHEP-2.0.4.6.dylib"; path = "/Applications/CLHEP/2.0.4.6/lib/libCLHEP-2.0.4.6.dylib"; sourceTree = "<absolute>"; };
+		CD90A99B13AD010D004BF17F /* cerenkov.mac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cerenkov.mac; sourceTree = "<group>"; };
+		CD90A99C13AD010D004BF17F /* defaults.mac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = defaults.mac; sourceTree = "<group>"; };
+		CD90A99D13AD010D004BF17F /* photon.mac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = photon.mac; sourceTree = "<group>"; };
+		CD90A99E13AD010D004BF17F /* reviewEvent.mac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = reviewEvent.mac; sourceTree = "<group>"; };
+		CD90A99F13AD010D004BF17F /* vis.mac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vis.mac; sourceTree = "<group>"; };
+		CD90A9A013AD010D004BF17F /* wls.mac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wls.mac; sourceTree = "<group>"; };
+		CD90A9A213AD011C004BF17F /* WALKTHROUGH */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WALKTHROUGH; sourceTree = SOURCE_ROOT; };
+		CD90AA0913ADF7E1004BF17F /* GNUmakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GNUmakefile; sourceTree = SOURCE_ROOT; };
+		CD90AA5013AE000D004BF17F /* MuSIC_simulation copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MuSIC_simulation copy"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD90AA2D13AE000D004BF17F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD90AA2E13AE000D004BF17F /* libCLHEP-2.0.4.6.dylib in Frameworks */,
+				CD90AA2F13AE000D004BF17F /* libG4global.dylib in Frameworks */,
+				CD90AA3013AE000D004BF17F /* libG4run.dylib in Frameworks */,
+				CD90AA3113AE000D004BF17F /* libG4processes.dylib in Frameworks */,
+				CD90AA3213AE000D004BF17F /* libG4event.dylib in Frameworks */,
+				CD90AA3313AE000D004BF17F /* libG4tracking.dylib in Frameworks */,
+				CD90AA3413AE000D004BF17F /* libG4geometry.dylib in Frameworks */,
+				CD90AA3513AE000D004BF17F /* libG4particles.dylib in Frameworks */,
+				CD90AA3613AE000D004BF17F /* libG4materials.dylib in Frameworks */,
+				CD90AA3713AE000D004BF17F /* libG4physicslists.dylib in Frameworks */,
+				CD90AA3813AE000D004BF17F /* libG4visXXX.dylib in Frameworks */,
+				CD90AA3913AE000D004BF17F /* libG4vis_management.dylib in Frameworks */,
+				CD90AA3A13AE000D004BF17F /* libG4digits_hits.dylib in Frameworks */,
+				CD90AA3B13AE000D004BF17F /* libG4error_propagation.dylib in Frameworks */,
+				CD90AA3C13AE000D004BF17F /* libG4FR.dylib in Frameworks */,
+				CD90AA3D13AE000D004BF17F /* libG4gl2ps.dylib in Frameworks */,
+				CD90AA3E13AE000D004BF17F /* libG4GMocren.dylib in Frameworks */,
+				CD90AA3F13AE000D004BF17F /* libG4graphics_reps.dylib in Frameworks */,
+				CD90AA4013AE000D004BF17F /* libG4intercoms.dylib in Frameworks */,
+				CD90AA4113AE000D004BF17F /* libG4interfaces.dylib in Frameworks */,
+				CD90AA4213AE000D004BF17F /* libG4modeling.dylib in Frameworks */,
+				CD90AA4313AE000D004BF17F /* libG4OpenGL.dylib in Frameworks */,
+				CD90AA4413AE000D004BF17F /* libG4parmodels.dylib in Frameworks */,
+				CD90AA4513AE000D004BF17F /* libG4persistency.dylib in Frameworks */,
+				CD90AA4613AE000D004BF17F /* libG4RayTracer.dylib in Frameworks */,
+				CD90AA4713AE000D004BF17F /* libG4readout.dylib in Frameworks */,
+				CD90AA4813AE000D004BF17F /* libG4track.dylib in Frameworks */,
+				CD90AA4913AE000D004BF17F /* libG4Tree.dylib in Frameworks */,
+				CD90AA4A13AE000D004BF17F /* libG4visHepRep.dylib in Frameworks */,
+				CD90AA4B13AE000D004BF17F /* libG4VRML.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD0B3F1113AB018400EE1952 = {
+			isa = PBXGroup;
+			children = (
+				CD90A8FD13AC891A004BF17F /* Library */,
+				CD0B3F1F13AB018500EE1952 /* MuSIC_simulation */,
+				CD0B3F1D13AB018500EE1952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD0B3F1D13AB018500EE1952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD90AA5013AE000D004BF17F /* MuSIC_simulation copy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD0B3F1F13AB018500EE1952 /* MuSIC_simulation */ = {
+			isa = PBXGroup;
+			children = (
+				CD90AA0913ADF7E1004BF17F /* GNUmakefile */,
+				CD90A9A213AD011C004BF17F /* WALKTHROUGH */,
+				CD90A99A13AD010D004BF17F /* macros */,
+				CD0B3F9E13AB119800EE1952 /* include */,
+				CD0B3FBF13AB119800EE1952 /* README */,
+				CD0B3FC113AB119800EE1952 /* src */,
+				CD0B3FC013AB119800EE1952 /* scint.cc */,
+			);
+			path = MuSIC_simulation;
+			sourceTree = "<group>";
+		};
+		CD0B3F9E13AB119800EE1952 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CD0B3F9F13AB119800EE1952 /* RecorderBase.hh */,
+				CD0B3FA013AB119800EE1952 /* scintDetectorConstruction.hh */,
+				CD0B3FA113AB119800EE1952 /* scintDetectorMessenger.hh */,
+				CD0B3FA213AB119800EE1952 /* scintEMPhysics.hh */,
+				CD0B3FA313AB119800EE1952 /* scintEventAction.hh */,
+				CD0B3FA413AB119800EE1952 /* scintEventMessenger.hh */,
+				CD0B3FA513AB119800EE1952 /* scintGeneralPhysics.hh */,
+				CD0B3FA613AB119800EE1952 /* scintHadronPhysics.hh */,
+				CD0B3FA713AB119800EE1952 /* scintMainVolume.hh */,
+				CD0B3FA813AB119800EE1952 /* scintMuonPhysics.hh */,
+				CD0B3FA913AB119800EE1952 /* scintOpPhysMessenger.hh */,
+				CD0B3FAA13AB119800EE1952 /* scintOpticalPhysics.hh */,
+				CD0B3FAB13AB119800EE1952 /* scintPhysicsList.hh */,
+				CD0B3FAC13AB119800EE1952 /* scintPMTHit.hh */,
+				CD0B3FAD13AB119800EE1952 /* scintPMTSD.hh */,
+				CD0B3FAE13AB119800EE1952 /* scintPrimaryGeneratorAction.hh */,
+				CD0B3FAF13AB119800EE1952 /* scintPrimaryGeneratorMessenger.hh */,
+				CD0B3FB013AB119800EE1952 /* scintRunAction.hh */,
+				CD0B3FB113AB119800EE1952 /* scintRunActionMessenger.hh */,
+				CD0B3FB213AB119800EE1952 /* scintScintHit.hh */,
+				CD0B3FB313AB119800EE1952 /* scintScintSD.hh */,
+				CD0B3FB413AB119800EE1952 /* scintStackingAction.hh */,
+				CD0B3FB513AB119800EE1952 /* scintSteppingAction.hh */,
+				CD0B3FB613AB119800EE1952 /* scintSteppingMessenger.hh */,
+				CD0B3FB713AB119800EE1952 /* scintSteppingVerbose.hh */,
+				CD0B3FB813AB119800EE1952 /* scintTrackingAction.hh */,
+				CD0B3FB913AB119800EE1952 /* scintTrajectory.hh */,
+				CD0B3FBA13AB119800EE1952 /* scintUserEventInformation.hh */,
+				CD0B3FBB13AB119800EE1952 /* scintUserTrackInformation.hh */,
+				CD0B3FBC13AB119800EE1952 /* scintWLSFiber.hh */,
+				CD0B3FBD13AB119800EE1952 /* scintWLSSlab.hh */,
+				CD0B3FBE13AB119800EE1952 /* TG4BLStream.hh */,
+			);
+			path = include;
+			sourceTree = SOURCE_ROOT;
+		};
+		CD0B3FC113AB119800EE1952 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CD0B3FC213AB119800EE1952 /* scintDetectorConstruction.cc */,
+				CD0B3FC313AB119800EE1952 /* scintDetectorMessenger.cc */,
+				CD0B3FC413AB119800EE1952 /* scintEMPhysics.cc */,
+				CD0B3FC513AB119800EE1952 /* scintEventAction.cc */,
+				CD0B3FC613AB119800EE1952 /* scintEventMessenger.cc */,
+				CD0B3FC713AB119800EE1952 /* scintGeneralPhysics.cc */,
+				CD0B3FC813AB119800EE1952 /* scintHadronPhysics.cc */,
+				CD0B3FC913AB119800EE1952 /* scintMainVolume.cc */,
+				CD0B3FCA13AB119800EE1952 /* scintMuonPhysics.cc */,
+				CD0B3FCB13AB119800EE1952 /* scintOpPhysMessenger.cc */,
+				CD0B3FCC13AB119800EE1952 /* scintOpticalPhysics.cc */,
+				CD0B3FCD13AB119800EE1952 /* scintPhysicsList.cc */,
+				CD0B3FCE13AB119800EE1952 /* scintPMTHit.cc */,
+				CD0B3FCF13AB119800EE1952 /* scintPMTSD.cc */,
+				CD0B3FD013AB119800EE1952 /* scintPrimaryGeneratorAction.cc */,
+				CD0B3FD113AB119800EE1952 /* scintPrimaryGeneratorMessenger.cc */,
+				CD0B3FD213AB119800EE1952 /* scintRunAction.cc */,
+				CD0B3FD313AB119800EE1952 /* scintRunActionMessenger.cc */,
+				CD0B3FD413AB119800EE1952 /* scintScintHit.cc */,
+				CD0B3FD513AB119800EE1952 /* scintScintSD.cc */,
+				CD0B3FD613AB119800EE1952 /* scintStackingAction.cc */,
+				CD0B3FD713AB119800EE1952 /* scintSteppingAction.cc */,
+				CD0B3FD813AB119800EE1952 /* scintSteppingMessenger.cc */,
+				CD0B3FD913AB119800EE1952 /* scintSteppingVerbose.cc */,
+				CD0B3FDA13AB119800EE1952 /* scintTrackingAction.cc */,
+				CD0B3FDB13AB119800EE1952 /* scintTrajectory.cc */,
+				CD0B3FDC13AB119800EE1952 /* scintUserEventInformation.cc */,
+				CD0B3FDD13AB119800EE1952 /* scintUserTrackInformation.cc */,
+				CD0B3FDE13AB119800EE1952 /* scintWLSFiber.cc */,
+				CD0B3FDF13AB119800EE1952 /* scintWLSSlab.cc */,
+				CD0B3FE013AB119800EE1952 /* TG4BLStream.cc */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		CD90A8FD13AC891A004BF17F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				CD90A8FF13AC89C4004BF17F /* libG4digits_hits.dylib */,
+				CD90A90013AC89C4004BF17F /* libG4error_propagation.dylib */,
+				CD90A90113AC89C4004BF17F /* libG4event.dylib */,
+				CD90A90213AC89C4004BF17F /* libG4FR.dylib */,
+				CD90A93913AC8A27004BF17F /* libCLHEP-2.0.4.6.dylib */,
+				CD90A90313AC89C4004BF17F /* libG4geometry.dylib */,
+				CD90A90413AC89C4004BF17F /* libG4gl2ps.dylib */,
+				CD90A90513AC89C4004BF17F /* libG4global.dylib */,
+				CD90A90613AC89C4004BF17F /* libG4GMocren.dylib */,
+				CD90A90713AC89C4004BF17F /* libG4graphics_reps.dylib */,
+				CD90A90813AC89C4004BF17F /* libG4intercoms.dylib */,
+				CD90A90913AC89C4004BF17F /* libG4interfaces.dylib */,
+				CD90A90A13AC89C4004BF17F /* libG4materials.dylib */,
+				CD90A90B13AC89C4004BF17F /* libG4modeling.dylib */,
+				CD90A90C13AC89C4004BF17F /* libG4OpenGL.dylib */,
+				CD90A90D13AC89C4004BF17F /* libG4parmodels.dylib */,
+				CD90A90E13AC89C4004BF17F /* libG4particles.dylib */,
+				CD90A90F13AC89C4004BF17F /* libG4persistency.dylib */,
+				CD90A91013AC89C4004BF17F /* libG4physicslists.dylib */,
+				CD90A91113AC89C4004BF17F /* libG4processes.dylib */,
+				CD90A91213AC89C4004BF17F /* libG4RayTracer.dylib */,
+				CD90A91313AC89C4004BF17F /* libG4readout.dylib */,
+				CD90A91413AC89C4004BF17F /* libG4run.dylib */,
+				CD90A91513AC89C4004BF17F /* libG4track.dylib */,
+				CD90A91613AC89C4004BF17F /* libG4tracking.dylib */,
+				CD90A91713AC89C4004BF17F /* libG4Tree.dylib */,
+				CD90A91813AC89C4004BF17F /* libG4vis_management.dylib */,
+				CD90A91913AC89C4004BF17F /* libG4visHepRep.dylib */,
+				CD90A91A13AC89C4004BF17F /* libG4visXXX.dylib */,
+				CD90A91B13AC89C4004BF17F /* libG4VRML.dylib */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		CD90A99A13AD010D004BF17F /* macros */ = {
+			isa = PBXGroup;
+			children = (
+				CD90A99B13AD010D004BF17F /* cerenkov.mac */,
+				CD90A99C13AD010D004BF17F /* defaults.mac */,
+				CD90A99D13AD010D004BF17F /* photon.mac */,
+				CD90A99E13AD010D004BF17F /* reviewEvent.mac */,
+				CD90A99F13AD010D004BF17F /* vis.mac */,
+				CD90A9A013AD010D004BF17F /* wls.mac */,
+			);
+			path = macros;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD90AA0A13AE000D004BF17F /* MuSIC_simulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD90AA4D13AE000D004BF17F /* Build configuration list for PBXNativeTarget "MuSIC_simulation" */;
+			buildPhases = (
+				CD90AA0B13AE000D004BF17F /* Run Script */,
+				CD90AA0C13AE000D004BF17F /* Sources */,
+				CD90AA2D13AE000D004BF17F /* Frameworks */,
+				CD90AA4C13AE000D004BF17F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuSIC_simulation;
+			productName = MuSIC_simulation;
+			productReference = CD90AA5013AE000D004BF17F /* MuSIC_simulation copy */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD0B3F1313AB018400EE1952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = UCL;
+			};
+			buildConfigurationList = CD0B3F1613AB018400EE1952 /* Build configuration list for PBXProject "MuSIC_simulation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD0B3F1113AB018400EE1952;
+			productRefGroup = CD0B3F1D13AB018500EE1952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD90AA0A13AE000D004BF17F /* MuSIC_simulation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD90AA0B13AE000D004BF17F /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export G4SYSTEM=Darwin-g++\nexport G4INSTALL=/Applications/geant4.9.3.p01\nexport G4LIB=/Applications/geant4.9.3.p01/lib\nexport G4LEVELGAMMADATA=/Applications/geant4.9.3.p01/data/PhotonEvaporation2.0\nexport G4RADIOACTIVEDATA=/Applications/geant4.9.3.p01/data/RadioactiveDecay3.2\nexport G4LEDATA=/Applications/geant4.9.3.p01/data/G4EMLOW6.9\nexport G4NEUTRONHPDATA=/Applications/geant4.9.3.p01/data/G4NDL3.13\nexport G4ABLADATA=/Applications/geant4.9.3.p01/data/G4ABLA3.0\nexport G4REALSURFACEDATA=/Applications/geant4.9.3.p01/data/RealSurface1.0\nexport CLHEP_BASE_DIR=/Applications/CLHEP/2.0.4.6\nexport CLHEP_INCLUDE_DIR=/Applications/CLHEP/2.0.4.6/include\nexport CLHEP_LIB_DIR=/Applications/CLHEP/2.0.4.6/lib\nexport CLHEP_LIB=CLHEP\nexport G4UI_USE_TCSH=1    \nexport G$VIS_USE=1\nexport G4VIS_BUILD_OPENGLX_DRIVER=1\nexport G4VIS_BUILD_RAYTRACERX_DRIVER=1\nexport G4VIS_USE_OPENGLX=1\nexport G4VIS_USE_RAYTRACERX=1\nexport XMFLAGS=\nexport XMLIBS=\nexport XMFLAGS=\nexport XAWFLAGS=\nexport XAWLIBS=\nexport G4LIB_BUILD_SHARED=1\nexport G4LIB_BUILD_STATIC=1  \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD90AA0C13AE000D004BF17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD90AA0D13AE000D004BF17F /* scint.cc in Sources */,
+				CD90AA0E13AE000D004BF17F /* scintDetectorConstruction.cc in Sources */,
+				CD90AA0F13AE000D004BF17F /* scintDetectorMessenger.cc in Sources */,
+				CD90AA1013AE000D004BF17F /* scintEMPhysics.cc in Sources */,
+				CD90AA1113AE000D004BF17F /* scintEventAction.cc in Sources */,
+				CD90AA1213AE000D004BF17F /* scintEventMessenger.cc in Sources */,
+				CD90AA1313AE000D004BF17F /* scintGeneralPhysics.cc in Sources */,
+				CD90AA1413AE000D004BF17F /* scintHadronPhysics.cc in Sources */,
+				CD90AA1513AE000D004BF17F /* scintMainVolume.cc in Sources */,
+				CD90AA1613AE000D004BF17F /* scintMuonPhysics.cc in Sources */,
+				CD90AA1713AE000D004BF17F /* scintOpPhysMessenger.cc in Sources */,
+				CD90AA1813AE000D004BF17F /* scintOpticalPhysics.cc in Sources */,
+				CD90AA1913AE000D004BF17F /* scintPhysicsList.cc in Sources */,
+				CD90AA1A13AE000D004BF17F /* scintPMTHit.cc in Sources */,
+				CD90AA1B13AE000D004BF17F /* scintPMTSD.cc in Sources */,
+				CD90AA1C13AE000D004BF17F /* scintPrimaryGeneratorAction.cc in Sources */,
+				CD90AA1D13AE000D004BF17F /* scintPrimaryGeneratorMessenger.cc in Sources */,
+				CD90AA1E13AE000D004BF17F /* scintRunAction.cc in Sources */,
+				CD90AA1F13AE000D004BF17F /* scintRunActionMessenger.cc in Sources */,
+				CD90AA2013AE000D004BF17F /* scintScintHit.cc in Sources */,
+				CD90AA2113AE000D004BF17F /* scintScintSD.cc in Sources */,
+				CD90AA2213AE000D004BF17F /* scintStackingAction.cc in Sources */,
+				CD90AA2313AE000D004BF17F /* scintSteppingAction.cc in Sources */,
+				CD90AA2413AE000D004BF17F /* scintSteppingMessenger.cc in Sources */,
+				CD90AA2513AE000D004BF17F /* scintSteppingVerbose.cc in Sources */,
+				CD90AA2613AE000D004BF17F /* scintTrackingAction.cc in Sources */,
+				CD90AA2713AE000D004BF17F /* scintTrajectory.cc in Sources */,
+				CD90AA2813AE000D004BF17F /* scintUserEventInformation.cc in Sources */,
+				CD90AA2913AE000D004BF17F /* scintUserTrackInformation.cc in Sources */,
+				CD90AA2A13AE000D004BF17F /* scintWLSFiber.cc in Sources */,
+				CD90AA2B13AE000D004BF17F /* scintWLSSlab.cc in Sources */,
+				CD90AA2C13AE000D004BF17F /* TG4BLStream.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD0B3F2313AB018800EE1952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"G4VIS_USE_RAYTRACERX=1",
+					"G4VIS_USE=1",
+					"G4VIS_USE_OPENGLX=1",
+					"G4VIS_BUILD_OPENGLX_DRIVER=1",
+					"G4VIS_BUILD_RAYTRACERX_DRIVER=1",
+					G4UI_USE_TCSH,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Applications/geant4.9.3.p01/source/**",
+					"/Applications/CLHEP/2.0.4.6/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Applications/geant4.9.3.p01/lib/**",
+					"/Applications/CLHEP/2.0.4.6/lib/**",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "/Applications/geant4.9.3.p01/source/**";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		CD0B3F2413AB018800EE1952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"G4VIS_USE_RAYTRACERX=1",
+					"G4VIS_USE=1",
+					"G4VIS_USE_OPENGLX=1",
+					"G4VIS_BUILD_OPENGLX_DRIVER=1",
+					"G4VIS_BUILD_RAYTRACERX_DRIVER=1",
+					G4UI_USE_TCSH,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Applications/geant4.9.3.p01/source/**",
+					"/Applications/CLHEP/2.0.4.6/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Applications/geant4.9.3.p01/lib/**",
+					"/Applications/CLHEP/2.0.4.6/lib/**",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "/Applications/geant4.9.3.p01/source/**";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		CD90AA4E13AE000D004BF17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SYSTEM_APPS_DIR)/geant4.9.3.p01/lib/Darwin-g++\\\"",
+					"\\\"$(SYSTEM_APPS_DIR)/CLHEP/2.0.4.6/lib\\\"",
+				);
+				PRODUCT_NAME = "MuSIC_simulation copy";
+			};
+			name = Debug;
+		};
+		CD90AA4F13AE000D004BF17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SYSTEM_APPS_DIR)/geant4.9.3.p01/lib/Darwin-g++\\\"",
+					"\\\"$(SYSTEM_APPS_DIR)/CLHEP/2.0.4.6/lib\\\"",
+				);
+				PRODUCT_NAME = "MuSIC_simulation copy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD0B3F1613AB018400EE1952 /* Build configuration list for PBXProject "MuSIC_simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0B3F2313AB018800EE1952 /* Debug */,
+				CD0B3F2413AB018800EE1952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD90AA4D13AE000D004BF17F /* Build configuration list for PBXNativeTarget "MuSIC_simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD90AA4E13AE000D004BF17F /* Debug */,
+				CD90AA4F13AE000D004BF17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD0B3F1313AB018400EE1952 /* Project object */;
+}

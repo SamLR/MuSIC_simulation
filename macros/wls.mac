@@ -1,0 +1,7 @@
+/control/execute defaults.mac
+/scint/detector/volumes/wls 1
+/scint/detector/volumes/lxe 0
+/scint/detector/update
+/gun/particle e-
+/gun/energy 511 keV
+
