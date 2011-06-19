@@ -30,12 +30,13 @@
       </Testables>
    </TestAction>
    <LaunchAction
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       displayScaleIsEnabled = "NO"
       displayScale = "1.00"
       launchStyle = "0"
-      useCustomWorkingDirectory = "NO"
+      useCustomWorkingDirectory = "YES"
+      customWorkingDirectory = "/Users/scook/code/MuSIC_simulation/macros"
       buildConfiguration = "Debug">
       <BuildableProductRunnable>
          <BuildableReference
@@ -48,8 +49,12 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/Users/scook/code/MuSIC_simulation/vis.mac"
+            argument = "$(SRCROOT)/macros/wls.mac"
             isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "$(SRCROOT)/macros/vis.mac"
+            isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
       <EnvironmentVariables>
@@ -105,6 +110,11 @@
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "G4VIS_BUILD_RAYTRACERX_DRIVER"
+            value = "1"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "G4UI_USE_TCSH"
             value = "1"
             isEnabled = "YES">
          </EnvironmentVariable>
